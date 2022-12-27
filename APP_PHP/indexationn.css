@@ -1,0 +1,144 @@
+body{
+   background-image:linear-gradient(#FF8FF0,#5D72C9 75%);
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   font-family:Arial;
+}
+.entete{
+	position:relative;
+	display:flex;
+}
+.image{
+	position:relative;
+	left:5px;
+}
+.logoutbut {
+	position:absolute;
+	right:0px;
+}
+.logoutbut a{
+	text-decoration:none;
+	background-color:#FFFFFF33;
+	border-radius:0.5rem;
+	padding:5px 8px 5px 8px;
+}
+a.grA:link , a.grA:visited{
+  color: red;
+}
+a.grA:hover {
+  color:#940C0C;
+}
+
+
+
+.container{
+	position:relative;
+	height:480px;
+}
+
+.section{
+	width:fit-content;
+	position:absolute;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.section h1{
+	text-align:center;
+}
+.domaine{
+	background-color:#D6CFCC70;
+	display:flex;
+	border-radius:0.8rem;
+	border:none;
+}
+.minidomaine1{
+    margin-right:30px;
+	padding:20px;
+}
+.minidomaine2{
+	padding:22px 20px 20px 20px;
+}
+
+.remarque textarea{
+	vertical-align: top;
+	border-radius:0.2rem;
+	border:none;
+	background-color:#FFFFFF;
+	outline-style:none;
+	text-indent:10px;
+	resize: none;
+}
+.domaine input{
+	border-radius:0.2rem;
+	border:none;
+	outline-style:none;
+	text-indent:10px;
+}
+.domaine input.a{
+	background-color:#FFFFFF00;
+}
+.domaine input.b{
+	background-color:#FFFFFF;
+}
+
+
+
+
+.conteneur{
+	margin-top:50px;
+	position:relative;
+	padding-bottom:130px;
+	padding-top:30px;
+}
+
+
+.bouton12{
+	position:relative;
+	display:flex;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bouton1{
+	position:absolute;
+	left:0;
+	margin: 0 auto;
+}
+.bouton2{
+	position:absolute;
+	right:0;
+	margin: 0 auto;
+}
+a.grB{
+	padding:10px 17px;
+	text-transform: uppercase;
+}
+a.grB:link , a.grB:visited{
+  color: #BEEB37;
+}
+a.grB:hover {
+  color: #184A21;
+}
+
+
+.bouton3{
+	position:absolute;
+	width:fit-content;
+	top:85px;
+	left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.bouton3 input{
+	padding:10px 25px;
+	border-radius:2rem;
+	border:none;
+	cursor:pointer;
+    background-color:#7DE2D1;
+	font-size: 20px;
+}
+.bouton3 input:hover{
+  background-color:#32ADD7;	
+}
